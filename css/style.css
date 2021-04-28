@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*debug*/
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+
+.jambotrom{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+
+.conteiner{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    margin: 20px 0;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.box{
+    width: 50%;
+    height: calc(300px / 2);
+    display: inline-block;
+}
+
+.img{
+    background-color: green;
+}
+
+.paragrafo{
+    background-color: violet;
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+
+
+
