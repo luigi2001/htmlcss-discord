@@ -126,11 +126,10 @@ li:hover a{
 
 /* fine jambotrom*/
 
+/* inizio sezioni*/
 .conteiner{
     width: 100%;
-    height: 300px;
-    background-color: yellow;
-    margin: 20px 0;
+    margin: 100px 0;
 }
 
 .clearfix::after{
@@ -141,19 +140,39 @@ li:hover a{
 
 .box{
     width: 50%;
-    height: calc(300px / 2);
     display: inline-block;
 }
 
-.img{
-    background-color: green;
+.immagine{
+    width: 60%;
+    margin-left: 60px;
 }
 
-.paragrafo{
-    background-color: violet;
+#special{
     float: right;
 }
+.paragrafo{
+    float: right;
+    line-height: 25px;
+    padding-left: 25px;
+}
 
+.paragrafo h2{
+    margin-bottom: 25px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#titolo-special{
+    margin-top: 50px;
+}
+
+.container-special{
+    background-color: gray;
+    margin-top: 0;
+    border-top: none;
+}
+/* fine sezioni*/
 footer{
     width: 100%;
     height: 300px;
