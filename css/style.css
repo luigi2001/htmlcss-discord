@@ -58,12 +58,21 @@ li:hover a{
 /* fine header*/
  
 /* inizio jambotrom*/
+
 .jambotrom{
-    width: 100%;
     height: 500px;
-    background-color:red;
+    position: relative;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
+.box-jambotrom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+/* inizio bottoni*/
 .button1{
     margin: 10px 0;
 }
@@ -102,6 +111,17 @@ li:hover a{
 
 .button2:hover a{
     box-shadow: 4px 4px 8px lightgray;
+}
+
+/* fine bottoni*/
+
+.titolo-paragrafo h1{
+    margin-bottom: 15px;
+}
+
+.titolo-paragrafo{
+    color: white;
+    line-height: 25px;
 }
 
 /* fine jambotrom*/
