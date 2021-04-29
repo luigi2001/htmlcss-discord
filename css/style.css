@@ -179,6 +179,10 @@ footer{
     background-color: black;
 }
 
+/*svg*/
 
+svg{
+    display: block;
+}
 
 
